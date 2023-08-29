@@ -13,19 +13,35 @@
 // }
 
 
-const Laptop={
+// const Laptop={
     
+// }
+
+// const names="hp";
+// const price="12000Rs";
+// const storage="2 GB";
+// const Geneartion="core I2";
+
+
+// Laptop[names]="Hp is the most utilize and used laptop in the market";
+// Laptop[price]="Tme most suitable price for it";
+// Laptop[storage]="Mostly used for the resources like the Microsoft Office and the many others";
+// Laptop[Geneartion]="Best Acurracy and the Efficent to used";
+
+// console.log(Laptop.names);
+
+
+const Book={
+
+    author:"Alexander",
+    display(author){
+
+        console.log(this.author);
+    }
 }
 
-const names="hp";
-const price="12000Rs";
-const storage="2 GB";
-const Geneartion="core I2";
 
 
-Laptop[names]="Hp is the most utilize and used laptop in the market";
-Laptop[price]="Tme most suitable price for it";
-Laptop[storage]="Mostly used for the resources like the Microsoft Office and the many others";
-Laptop[Geneartion]="Best Acurracy and the Efficent to used";
+const bookauthor=Object.create(Book);
 
-console.log(Laptop);
+bookauthor.display()
