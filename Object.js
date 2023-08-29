@@ -61,7 +61,4 @@ const Apple={
     exp:2020
 }
 
-for (x in Apple){
-
-    console.log(`${x}:${Apple[x]}`);
-}
+console.log(Object.keys(Apple));
