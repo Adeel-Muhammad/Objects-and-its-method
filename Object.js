@@ -31,17 +31,37 @@
 // console.log(Laptop.names);
 
 
-const Book={
+// const Book={
 
-    author:"Alexander",
-    display(author){
+//     author:"Alexander",
+//     display(author){
 
-        console.log(this.author);
-    }
+//         console.log(this.author);
+//     }
+// }
+
+
+
+// const bookauthor=Object.create(Book);
+
+// bookauthor.display()
+
+
+// const Comicsauthor=Object.create(Book);
+// Comicsauthor.author="Anoynmous";
+// Comicsauthor.display();
+
+//for in
+
+const Apple={
+
+    color:"Red",
+    year:2019,
+    price:"250",
+    exp:2020
 }
 
+for (x in Apple){
 
-
-const bookauthor=Object.create(Book);
-
-bookauthor.display()
+    console.log(`${x}:${Apple[x]}`);
+}
