@@ -1,13 +1,31 @@
-const myInfo={
+// const myInfo={
 
-    name:"Adeel Muhammad",
-    id:1391-2020,
-    Program:"BS SE",
-    Semester:"6th"
+//     name:"Adeel Muhammad",
+//     id:1391-2020,
+//     Program:"BS SE",
+//     Semester:"6th"
+// }
+
+// for (x in myInfo){
+
+//     console.log(x);
+
+// }
+
+
+const Laptop={
+    
 }
 
-for (x in myInfo){
+const names="hp";
+const price="12000Rs";
+const storage="2 GB";
+const Geneartion="core I2";
 
-    console.log(x);
 
-}
+Laptop[names]="Hp is the most utilize and used laptop in the market";
+Laptop[price]="Tme most suitable price for it";
+Laptop[storage]="Mostly used for the resources like the Microsoft Office and the many others";
+Laptop[Geneartion]="Best Acurracy and the Efficent to used";
+
+console.log(Laptop);
