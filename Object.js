@@ -84,4 +84,8 @@ function Dogs(names,id,color,price,country){
 
 const Husky=new Dogs("Husky",12,"Grey","10000","German");
     console.log(Husky);
-    console.log(Husky.status());
+    
+
+
+    const pitBall = new Dogs("Pitballs",13,"Brown","20000","Luxumburg");
+    console.log(pitBall);
