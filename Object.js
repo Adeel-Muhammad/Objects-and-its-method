@@ -89,3 +89,7 @@ const Husky=new Dogs("Husky",12,"Grey","10000","German");
 
     const pitBall = new Dogs("Pitballs",13,"Brown","20000","Luxumburg");
     console.log(pitBall);
+
+    const wolf = new Dogs("Wolf",17,"Black","120000","Russia");
+
+    console.log(wolf);
