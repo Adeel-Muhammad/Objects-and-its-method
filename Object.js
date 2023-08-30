@@ -91,3 +91,8 @@ console.log(Husky);
 const pitBall = new Dogs("Pitball",19,"Brown","15000","Luxumburg");
 console.log(pitBall);
 
+
+//in
+
+console.log("price" in pitBall);
+
