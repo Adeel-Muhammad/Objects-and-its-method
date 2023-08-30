@@ -74,22 +74,20 @@ function Dogs(names,id,color,price,country){
     this.price=price;
     this.country=country;
 
-    this.status=function(){
-        console.log("I am the Happy");
-
-
-}
-
-}
-
-const Husky=new Dogs("Husky",12,"Grey","10000","German");
-    console.log(Husky);
     
 
+}
 
-    const pitBall = new Dogs("Pitballs",13,"Brown","20000","Luxumburg");
-    console.log(pitBall);
 
-    const wolf = new Dogs("Wolf",17,"Black","120000","Russia");
+Dogs.prototype.status=function(){
+    console.log("I am the Happy");
 
-    console.log(wolf);
+
+}
+
+const Husky = new Dogs("Husky",15,"Grey","12000","German");
+console.log(Husky);
+
+const pitBall = new Dogs("Pitball",19,"Brown","15000","Luxumburg");
+console.log(pitBall);
+
