@@ -53,12 +53,35 @@
 
 //for in
 
-const Apple={
+// const Apple={
 
-    color:"Red",
-    year:2019,
-    price:"250",
-    exp:2020
+//     color:"Red",
+//     year:2019,
+//     price:"250",
+//     exp:2020
+// }
+
+// console.log(Object.keys(Apple));
+
+
+
+
+function Dogs(names,id,color,price,country){
+
+    this.names=names;
+    this.id=id;
+    this.color=color;
+    this.price=price;
+    this.country=country;
+
+    this.status=function(){
+        console.log("I am the Happy");
+
+
 }
 
-console.log(Object.keys(Apple));
+}
+
+const Husky=new Dogs("Husky",12,"Grey","10000","German");
+    console.log(Husky);
+    console.log(Husky.status());
